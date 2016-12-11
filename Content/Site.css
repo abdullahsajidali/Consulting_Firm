@@ -1,0 +1,324 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: -20px;
+    padding-right: -20px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Custom footer style */
+
+.main_12 {
+	width:960px; 	
+	padding:0;
+	margin:0 auto;
+	font-size:0.875em;
+	line-height:1.785em;
+}
+
+.wrapper_12 {width:100%; overflow:hidden; position:relative;}
+
+.indent-left2 {padding-left:60px;}
+
+dl.contact {color:#808080;}
+dl.contact span {float:left; width:51px; color:#4d4d4d; font-weight:normal;}
+
+.container_12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+
+.grid_3 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container_12 .grid_4 {
+	width:300px;
+}
+
+
+
+#contact-form {
+	display:block;
+	width:100%;
+}
+	#contact-form label {
+		display:block; 
+		height:40px; 
+		overflow:hidden;
+	}
+	#contact-form input {
+		float:left; 
+		width:510px; 
+		font-size:13px; 
+		line-height:1.23em;
+		color:#808080;
+		padding:6px 9px 7px; 
+		margin:0; 
+		font-family:Arial, Helvetica, sans-serif; 
+		border:1px solid #e5e5e5; 
+		background:#fff;
+		outline:none;
+	}
+	#contact-form textarea {
+		float:left;
+		height:185px; 
+		width:510px;
+		font-size:13px; 
+		line-height:1.23em;
+		color:#808080;
+		padding:7px 9px; 
+		margin:0; 
+		font-family:Arial, Helvetica, sans-serif; 
+		border:1px solid #e5e5e5;
+		background:#fff;
+		overflow:auto;
+		outline:none;
+	}
+
+footer {
+	width:100%; 
+	padding:42px 0 58px;
+}
+
+.list-services {
+	padding:8px 0 0 2px;
+}
+	.list-services li {
+		float:left; 
+		padding:0 10px 0 0;
+	}
+	.list-services li a {
+		display:block;
+		width:40px;
+		height:40px;
+		text-indent:-9999em;
+		background:url(../images/social-icons.png) 0 0 no-repeat;
+	}
+	.list-services li.item-2 a {background-position:-50px 0;}
+	.list-services li.item-3 a {background-position:-100px 0;}
+	.list-services li.item-4 a {background-position:-150px 0;}
+	
+/**** Easy Tooltip ****/
+#easyTooltip{
+	padding:4px 12px;
+	border:1px solid #fff;
+	background:#121313;
+	color:#fff;
+	font-size:11px;
+	text-transform:none;
+	position:relative;
+	z-index:9;
+}
+
+
+ #homeimage {  
+        margin: 50px auto;  
+        position: relative;  
+        width: 200px;  
+        height: 200px;  
+        padding: 10px;  
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);  
+    }  
+      
+    #homeimage > div {  
+        position: absolute;  
+        top: 10px;  
+        left: 10px;  
+        right: 10px;  
+        bottom: 10px;  
+    }
+
+    /* Contact page */
+
+    @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:400;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 24px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}

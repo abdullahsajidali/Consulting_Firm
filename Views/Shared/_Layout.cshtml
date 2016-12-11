@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to T.M Consulting</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Taj M Consulting", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Company", "Company", "Home")</li>
+                    <li>@Html.ActionLink("Markets We Serve", "Market", "Home")</li>
+                    <li>@Html.ActionLink("News and More", "News", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    
+                </ul>
+               
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+        <footer>
+
+                <div class="main_12">
+                    <div class="container_12">
+                        <div class="wrapper_12">
+                            
+                            <article class="grid_3">
+                                <a href="http://facebook.com" class="btn btn-group-lg btn-primary"> Facebook </a>
+                                <a href="http://twitter.com" class="btn btn-group-lg btn-success"> Twitter </a> 
+                                <a href="http://gmail.com" class="btn btn-group-lg btn-warning"> Google+ </a>    
+                                   
+                            </article>
+                            <article class="grid_3">
+                                <div class="indent-left2">
+                                    
+                                    <h4>Navigation</h4>
+                                    <ul class="list-1">
+                                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                        <li>@Html.ActionLink("Company", "Company", "Home")</li>
+                                        <li>@Html.ActionLink("Markets We Serve", "Market", "Home")</li>
+                                        <li>@Html.ActionLink("News and More", "News", "Home")</li>
+                                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                                    </ul>
+                                   
+                                </div>
+                            </article>
+                            <article class="grid_3">
+                                <h4>Contact</h4>
+                                <dl class="contact">
+                                    <dt>786 NorthWest 164 Avenue, <br> Pembroke Pines <br>FL 33028</dt>
+                                    <dd><span>Phone:</span> <dt> 954-237-6383 </dt></dd>
+                                    <dd><span>Email:</span>  <dt>tajmconsulting@gmail.com</dt></dd>
+                                </dl>
+                            </article>
+                            <article class="grid_3">
+                                <h4>Legal</h4>
+                                  <strong> This Website or any of its<br> Templates belongs to the Owner. <br>If you want any part/Template<br>Please contact the owner.<br> Created on 12/4/2016 </strong>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+        </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
