@@ -6,5 +6,3 @@
 	Razor Views
 	Visual Studio 2015
 	
-
--> Demo: http://tajmconsulting.somee.com/
